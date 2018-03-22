@@ -1,4 +1,12 @@
+@extends('layout')
+
+@section('content')
+Hello world!
+@endsection
+
+
 <div class = "container">
+
 	@foreach($articles as $article)
 	
 	{{ $article->id }}.
